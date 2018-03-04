@@ -3,10 +3,7 @@ import MainWrapper from "../MainWrapper/MainWrapper";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import "./App.css";
-
-// Header
-// Footer
-// Main section
+require("dotenv").config();
 
 const App = () => (
   <div className="App">
