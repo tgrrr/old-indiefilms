@@ -1,5 +1,5 @@
-import React from "react";
-import Video from "./Video";
+import React from 'react';
+import Video from './Video';
 
 const VideoList = () => (
   <div>

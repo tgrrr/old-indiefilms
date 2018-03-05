@@ -1,6 +1,6 @@
-import React from "react";
-import VideoList from "./VideoList/VideoList";
-import SearchBar from "../SearchBar/SearchBar";
+import React from 'react';
+import VideoList from './VideoList/VideoList';
+import SearchBar from '../SearchBar/SearchBar';
 
 const MainWrapper = () => (
   <div>
