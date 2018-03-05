@@ -2,3 +2,4 @@
 .DS_Store
 /node_modules/
 src/Components/help/React CrashCourse.js
+package-lock.json
