@@ -1,28 +1,12 @@
 import React from 'react';
-import YouTube from 'react-youtube';
+import { Player } from 'video-react';
+import '../../../node_modules/video-react/dist/video-react.css';
+import './Video.css';
 
-const youtubePlaceholderId = 'uUT0K3TtKIk';
-
-class Video extends React.Component {
-  _onReady (event) {
-    // access to player in all event handlers via event.target
-    event.target.pauseVideo();
-  }
-
-  render () {
-    const opts = {
-      height: '170',
-      width: '340',
-      playerVars: {
-        // https://developers.google.com/youtube/player_parameters
-        autoplay: 1
-      }
-    };
-
-    return (
-      <YouTube videoId={youtubePlaceholderId} opts={opts} onReady={this._onReady} />
-    );
-  }
-}
+const Video = ({ source }) => (
+  <Player>
+    <source src={source} className="video-react" />
+  </Player>
+);
 
 export default Video;

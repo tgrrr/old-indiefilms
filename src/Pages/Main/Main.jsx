@@ -11,4 +11,3 @@ const Main = () => (
 );
 
 export default Main;
-// export default ({ name }) => <h1>Hello {name}!</h1>;
