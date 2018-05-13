@@ -1,7 +1,7 @@
 import React from 'react';
 import Video from './Video';
 
-const VideoList = () => (
+const Videos = () => (
   <div>
     <ul>
       <li>
@@ -20,4 +20,4 @@ const VideoList = () => (
   </div>
 );
 
-export default VideoList;
+export default Videos;
