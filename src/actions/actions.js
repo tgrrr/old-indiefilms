@@ -1,10 +1,14 @@
 // import axios from 'axios';
 import fetch from 'node-fetch';
+import { createAction } from 'redux-actions';
 
 export const FETCH_VIDEO = 'FETCH_VIDEO';
 export const RECEIVE_VIDEO = 'RECEIVE_VIDEO';
 
-// import * as allActions from './allActions';
+// writing test action
+export const TESTACTION = 'TESTACTION';
+export const TESTACTION_FIRED = 'TESTACTION_FIRED';
+export const testAction = createAction(TESTACTION);
 
 export function receiveVideo (data) {
   return { type: RECEIVE_VIDEO, Video: data };
