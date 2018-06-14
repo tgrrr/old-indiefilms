@@ -1,4 +1,6 @@
+TODO:
 
+npm install --save redux-devtools-extension
 
 ## How to contribute
 
@@ -9,6 +11,47 @@
 
 - [AirBNB React]
 - [Code structure]
+
+## File Structure
+
+
+- Server with API via Express
+- React frontend
+
+General for each component
+
+- src
+  - Components
+
+    - Adapters
+      - Material components
+    - DemoComponent
+
+      - DemoComponent.js            - render only
+      - DemoComponentContainer.js   - all logic
+      - DemoComponentNative.js
+      - DemoComponentTV.js          - most basic
+
+      Redux
+      - DemoComponentActions.js
+      - DemoComponentReducers.js    - Logic here, not in reducers. For using Redux Devtools time-travel
+      - DemoComponentTest.js
+      - ? Sagas?
+
+      vs       ReactContext vs           - Not Native yet
+
+      - DemoComponent.scss
+      - DemoComponent.css
+
+
+      Unknowns
+      - ? for PWA
+      - ? Router
+      - CMS
+      - For Electron
+
+
+- Pages - TODO: move
 
 
 ## Useful links:
